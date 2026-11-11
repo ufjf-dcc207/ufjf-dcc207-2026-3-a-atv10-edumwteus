@@ -19,6 +19,9 @@ export default function Garrafa (props: garrafaProps){
                     <div key={index} style={{backgroundColor: COLOR_MAP.get(cor), flex: 1}}></div>
                 ))} 
             </div>
+            <div>
+                <button onClick={props.onSelecionar}>Selecionar</button>
+            </div>
         </>
     )
 }
